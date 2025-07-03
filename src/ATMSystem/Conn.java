@@ -8,7 +8,7 @@ public class Conn implements AutoCloseable{
     
     public Conn() throws SQLException {
     	//Class.forName("com.mysql.cj.jdbc.Driver"); 
-        con = DriverManager.getConnection("jdbc:mysql:///atmsystem","root","Sumati@mysql");
+        con = DriverManager.getConnection("jdbc:mysql:///atmsystem","root","root");
         stmt = con.createStatement();
     } 
     
